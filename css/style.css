@@ -65,7 +65,7 @@ header {
   font-size: 30px;
 }
 .fa-magnifying-glass,
-.fa-cart-shopping {
+.fa-cart-shopping, .fa-sun {
     color: #05BCCA;
     font-size: 20px;
 
@@ -142,7 +142,9 @@ header {
 .active{
     display: block;
     width: 100%;
-    max-width: 1500px;
+    /* max-width: 1500px; */
+    flex: 1 1 1440px;
+    object-fit: cover;
 }
 .slider-img{
     width: 100%;
